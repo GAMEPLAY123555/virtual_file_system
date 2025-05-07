@@ -11,3 +11,7 @@ Node::Node(Folder* new_parent) {
 void Node::SetName(STRO new_name) {
 	node_name = new_name;
 };
+
+STRO Node::GetName() {
+	return node_name;
+};
